@@ -1,0 +1,147 @@
+
+.cart-page {
+    
+    min-width: 1460px; 
+   
+   
+    box-sizing: border-box;
+    min-height: 700px;
+  }
+  
+
+  .cart-page h2 {
+    font-size: 28px;
+  
+  }
+  
+
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+
+  }
+  
+
+  .cart-item {
+    width: 30%;
+    max-width: 200px; 
+    display: flex;
+    flex-direction: column;
+    background-color: #12063b; 
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+  .cart-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .cart-item img {
+    width: 70%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+
+  .cart-item div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .cart-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .cart-item p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+ 
+  .cart-item button {
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .cart-item button:hover {
+    background-color: #e13c3f;
+  }
+  
+ 
+  .total-price {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+  }
+  
+
+  .empty-cart {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #888;
+    margin-top: 40px;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .cart-items {
+      justify-content: center;
+    }
+  
+    .cart-item {
+      width: 25%;
+      max-width: none;
+    }
+  
+    .cart-item img {
+      width: 70%;
+    }
+  
+    .total-price {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cart-items {
+      justify-content: center;
+    }
+  
+    .cart-item {
+      width: 25%;
+      max-width: none;
+    }
+  
+    .product-img {
+      width: 40px;
+    }
+  
+    .total-price {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+  }
+  

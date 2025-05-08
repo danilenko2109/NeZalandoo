@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  max-width: 1360px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 55px;
+  
+  color: white;
+  // border: 2px solid rgba(255, 255, 255, 0.3);
+  // border-radius: 30px;
+  // box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  animation: fadeInDown 0.8s ease;
+  align-items: baseline;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+ 
+  }
+  .nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 25px;
+
+      li {
+        a {
+          position: relative;
+          color: white;
+          text-decoration: none;
+          font-size: 17px;
+          transition: color 0.3s ease;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: #ec1839;
+            transition: width 0.3s ease;
+          }
+
+          &:hover {
+            color: #ec1839;
+          }
+
+          &:hover::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Simple entrance animation
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Responsive layout
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 20px;
+
+    .nav ul {
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 15px;
+    }
+  }
+}
+
+.logo_zalando{
+  width: 250px;
+ 
+}

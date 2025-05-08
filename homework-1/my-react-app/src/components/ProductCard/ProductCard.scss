@@ -1,0 +1,88 @@
+.product-card {
+    width: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #12063b;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  
+    img {
+      width: 100%;
+      height: 200px; 
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  
+    h3 {
+      margin-top: 12px;
+      font-size: 18px;
+    }
+  
+    p {
+      margin: 6px 0;
+      color: white;
+    }
+  
+    button {
+      margin-top: auto;
+    }
+
+  }
+
+  .btn1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px #09555c;
+  }
+  @media (max-width: 768px) {
+    .product-card {
+      width: 135px; /* Уменьшаем ширину карточки */
+      padding: 8px; /* Уменьшаем внутренние отступы */
+      
+      img {
+        height: 150px; /* Уменьшаем высоту изображения */
+      }
+      
+      h3 {
+        margin-top: 8px;
+        font-size: 16px; /* Уменьшаем размер шрифта заголовка */
+      }
+      
+      p {
+        margin: 4px 0;
+        font-size: 8px; /* Уменьшаем размер шрифта текста */
+      }
+      
+      button {
+        padding: 6px 12px; /* Уменьшаем размер кнопки */
+        font-size: 12px;
+      }
+    }
+    
+    .btn1:hover {
+      transform: scale(1.05); /* Уменьшаем эффект наведения для мобильных */
+      box-shadow: 0 4px 8px #09555c;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .product-card {
+      width: 130px;
+      padding: 6px;
+      
+      img {
+        height: 130px;
+      }
+      
+      h3 {
+        font-size: 14px;
+      }
+      
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+ 

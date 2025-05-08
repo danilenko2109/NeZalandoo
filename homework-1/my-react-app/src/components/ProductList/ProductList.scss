@@ -1,0 +1,48 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки на телефонах */
+  gap: 12px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+/* Планшеты (768px и больше) → 3 колонки */
+@media (min-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 20px;
+  }
+}
+
+/* Ноутбуки (1024px и больше) → 4 колонки */
+@media (min-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    
+  }
+}
+
+/* Большие экраны (1440px и больше) → 5 колонок */
+@media (min-width: 1380px) {
+  .product-list {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+   
+   
+  }
+}
+
+
+/* Анимация появления */
+@keyframes fadeInGrid {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

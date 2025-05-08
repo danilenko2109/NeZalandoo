@@ -1,0 +1,125 @@
+@import "././components/ProductList/ProductList.scss";
+@import "././components/ProductCard/ProductCard.scss";
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 0px 0 25px;
+  // background: linear-gradient(115deg, #09555c, #12063b);
+  font-family: 'Inter', sans-serif;
+  // min-width: 100%; // убираем фиксированную ширину
+ 
+}
+
+body {
+  background: linear-gradient(115deg, #09555c, #12063b);
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #12063b;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.modal-header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-body {
+  margin: 15px 0;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.texttt {
+  color: red;
+}
+
+.example-img {
+  width: 300px;
+  height: auto;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-size: larger;
+}
+
+p, span {
+  color: white;
+  font-size: 15px;
+}
+
+.cart-img {
+  object-fit: cover;
+  width: 20%;
+}
+
+/* Контейнер */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Шапка */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+

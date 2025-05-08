@@ -1,0 +1,115 @@
+footer {
+  // background: linear-gradient(115deg, #09555c, #12063b);
+   width: 85%;
+    border-top: 2px solid white;
+ 
+        color: white;
+        padding: 50px;
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 50px;
+      padding-bottom: 50px;
+  
+      .footer-menu,
+      .footer-categories,
+      .footer-company {
+        width: 20%;
+  
+        h4 {
+          font-size: 18px;
+          margin-bottom: 20px;
+        }
+  
+        ul {
+          list-style: none;
+          padding: 0;
+  
+          li {
+            margin-bottom: 10px;
+  
+            a {
+              font-size: 14px;
+              color: white;
+              text-decoration: none;
+              transition: color 0.3s;
+  
+              &:hover {
+                color: #726E8D;
+              }
+            }
+          }
+        }
+      }
+  
+     
+    }
+  
+    .footer_bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #726E8D;
+      padding-top: 20px;
+  
+      .footer-social {
+        ul {
+          display: flex;
+          gap: 15px;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+  
+          li {
+            a {
+              img {
+                width: 24px;
+                height: 24px;
+                transition: transform 0.3s;
+  
+                &:hover {
+                  transform: scale(1.1);
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .footer-copyright {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+  }
+  
+
+
+  @media (max-width: 768px) {
+    footer {
+      .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+  
+        .footer-menu,
+        .footer-categories,
+        .footer-company {
+          width: 100%;
+        }
+      }
+  
+      .footer_bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding-top: 30px;
+  
+        .footer-social ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
