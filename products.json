@@ -1,0 +1,320 @@
+[
+  {
+    "id": 1,
+    "title": "Classic White T-Shirt",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "article": "TSH001",
+    "color": "white"
+  },
+  {
+    "id": 2,
+    "title": "Slim Fit Black Jeans",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+    "article": "JEAN001",
+    "color": "black"
+  },
+  {
+    "id": 3,
+    "title": "Oversized Hoodie",
+    "price": 44.99,
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+    "article": "HD001",
+    "color": "gray"
+  },
+  {
+    "id": 4,
+    "title": "Casual Sneakers",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28",
+    "article": "SNK001",
+    "color": "white"
+  },
+  {
+    "id": 5,
+    "title": "Crossbody Bag",
+    "price": 65.99,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "article": "BAG001",
+    "color": "brown"
+  },
+  {
+    "id": 6,
+    "title": "Wool Beanie",
+    "price": 22.99,
+    "image": "https://images.unsplash.com/photo-1576872381149-7847515ce5d8",
+    "article": "ACC001",
+    "color": "black"
+  },
+ 
+  {
+    "id": 8,
+    "title": "Cotton Polo Shirt",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a",
+    "article": "POLO001",
+    "color": "navy"
+  },
+ 
+  {
+    "id": 10,
+    "title": "Canvas Backpack",
+    "price": 45.99,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "article": "BAG002",
+    "color": "khaki"
+  },
+  {
+    "id": 11,
+    "title": "Cashmere Scarf",
+    "price": 55.99,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+    "article": "ACC002",
+    "color": "burgundy"
+  },
+  {
+    "id": 12,
+    "title": "High-Top Sneakers",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28",
+    "article": "SNK002",
+    "color": "black"
+  },
+  {
+    "id": 13,
+    "title": "Winter Parka",
+    "price": 149.99,
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea",
+    "article": "COAT001",
+    "color": "black"
+  },
+  {
+    "id": 14,
+    "title": "Linen Shirt",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10",
+    "article": "SHIRT001",
+    "color": "beige"
+  },
+  
+  
+  {
+    "id": 17,
+    "title": "Knitted Sweater",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1527719327859-c6ce80353573",
+    "article": "SWT001",
+    "color": "cream"
+  },
+  {
+    "id": 18,
+    "title": "Aviator Sunglasses",
+    "price": 89.99,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "article": "ACC004",
+    "color": "gold"
+  },
+  
+  {
+    "id": 20,
+    "title": "Slip-On Loafers",
+    "price": 64.99,
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+    "article": "SHOE001",
+    "color": "brown"
+  },
+ 
+
+  {
+    "id": 23,
+    "title": "Baseball Cap",
+    "price": 24.99,
+    "image": "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc",
+    "article": "ACC005",
+    "color": "navy"
+  },
+  {
+    "id": 24,
+    "title": "Silk Scarf",
+    "price": 45.99,
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+    "article": "ACC006",
+    "color": "pink"
+  },
+ 
+  {
+    "id": 26,
+    "title": "Cotton Socks (3-Pack)",
+    "price": 15.99,
+    "image": "https://images.unsplash.com/photo-1587583770025-32851bad462e",
+    "article": "ACC007",
+    "color": "multicolor"
+  },
+  
+ 
+  {
+    "id": 29,
+    "title": "Chunky Boots",
+    "price": 99.99,
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28",
+    "article": "BOOT001",
+    "color": "black"
+  },
+  {
+    "id": 30,
+    "title": "Knit Beanie",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1576872381149-7847515ce5d8",
+    "article": "ACC009",
+    "color": "gray"
+  },
+  
+    {
+      "id": 31,
+      "title": "Ribbed Knit Tank Top",
+      "price": 27.99,
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27",
+      "article": "W-TSH031",
+      "color": "black",
+      "category": "tops"
+    },
+    {
+      "id": 32,
+      "title": "Distressed  Jeans",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246",
+      "article": "W-JEAN032",
+      "color": "light blue",
+      "category": "pants"
+    },
+    {
+      "id": 33,
+      "title": "Oversized Zip Hoodie",
+      "price": 54.99,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633",
+      "article": "W-HD033",
+      "color": "heather gray",
+      "category": "tops"
+    },
+    {
+      "id": 34,
+      "title": "White Sneakers",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28",
+      "article": "W-SNK034",
+      "color": "white",
+      "category": "shoes"
+    },
+    {
+      "id": 35,
+      "title": "Quilted Shoulder Bag",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "article": "W-BAG035",
+      "color": "cream",
+      "category": "accessories"
+    },
+    {
+      "id": 36,
+      "title": "Cashmere Beret",
+      "price": 34.99,
+      "image": "https://images.unsplash.com/photo-1576872381149-7847515ce5d8",
+      "article": "W-ACC036",
+      "color": "camel",
+      "category": "accessories"
+    },
+    
+    {
+      "id": 38,
+      "title": "Wrap Midi Dress",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03",
+      "article": "W-DRS038",
+      "color": "navy",
+      "category": "dresses"
+    },
+    
+    {
+      "id": 40,
+      "title": "Chiffon Printed Scarf",
+      "price": 29.99,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+      "article": "W-ACC040",
+      "color": "floral",
+      "category": "accessories"
+    },
+    
+  
+   
+    
+   
+    {
+      "id": 47,
+      "title": "Woven Straw Bag",
+      "price": 69.99,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7",
+      "article": "W-BAG047",
+      "color": "natural",
+      "category": "accessories"
+    },
+   
+    {
+      "id": 49,
+      "title": "Suede Mini Skirt",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91",
+      "article": "W-SKT049",
+      "color": "taupe",
+      "category": "skirts"
+    },
+   
+    {
+      "id": 51,
+      "title": "T Shirt",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1527719327859-c6ce80353573",
+      "article": "W-DRS051",
+      "color": "camel",
+      "category": "dresses"
+    },
+    {
+      "id": 52,
+      "title": "Linen Wide-Leg Pants",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10",
+      "article": "W-PNT052",
+      "color": "ecru",
+      "category": "pants"
+    },
+    {
+      "id": 53,
+      "title": "Cat-Eye Sunglasses",
+      "price": 49.99,
+      "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+      "article": "W-ACC053",
+      "color": "tortoise",
+      "category": "accessories"
+    },
+    {
+      "id": 54,
+      "title": "Satin Slip Dress",
+      "price": 75.99,
+      "image": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03",
+      "article": "W-DRS054",
+      "color": "champagne",
+      "category": "dresses"
+    },
+    {
+      "id": 55,
+      "title": "Fringe Shawl",
+      "price": 44.99,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c",
+      "article": "W-ACC055",
+      "color": "mustard",
+      "category": "accessories"
+    }
+    
+   
+  
+]
