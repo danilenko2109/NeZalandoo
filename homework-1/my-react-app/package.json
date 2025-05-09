@@ -1,15 +1,16 @@
 {
-  "name": "NeZalandoo",
+  "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://danilenko2109.github.io/NeZalandoo",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
@@ -19,7 +20,7 @@
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
     "react-router": "^7.5.1",
-    "sass": "^1.87.0"
+    "sass": "^1.86.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
