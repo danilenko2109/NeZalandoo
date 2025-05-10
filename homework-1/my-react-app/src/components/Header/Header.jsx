@@ -2,6 +2,9 @@ import React from "react";
 import { NavLink } from "react-router";
 import { FaHeart, FaShoppingCart } from "react-icons/fa";
 import "./Header.scss";
+import Logo from "../assets/logo--zalando.svg";
+
+
 
 const Header = ({ cartItems = [], favoriteItems = [] }) => {
   return (
@@ -9,8 +12,7 @@ const Header = ({ cartItems = [], favoriteItems = [] }) => {
       <div className="header__left">
         <h1 className="logo">
           <NavLink to="/">
-          <img src="..\dist\assets\ZAL.DE_BIG.svg" alt="#" className="logo_zalando" />
-          Zalando
+          <img src={Logo} alt="logo" className="logo_zalando"/>
           </NavLink>
         </h1>
         <nav className="nav">
