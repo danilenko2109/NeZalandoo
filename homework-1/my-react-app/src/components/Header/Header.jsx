@@ -10,7 +10,7 @@ const Header = ({ cartItems = [], favoriteItems = [] }) => {
         <h1 className="logo">
           <NavLink to="/">
           <img src="..\dist\assets\ZAL.DE_BIG.svg" alt="#" className="logo_zalando" />
-          
+          Zalando
           </NavLink>
         </h1>
         <nav className="nav">
